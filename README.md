@@ -33,7 +33,7 @@ Class Notebook is witten to represent the Notebook object and has such methods a
 ### Note()
 Class Note is witten to represent the Note object and has such methods as:
 - ```__init__(self, memo, creation_date, tags)``` which is responsible for creating class Note
-- ```match(self, search_filter)``` which is responsible for checking searched phrase matches note memo or tags, if match is found returns True, else False class
+- ```match(self, search_filter)``` which is responsible for checking searched phrase matches note memo or tags, if match is found returns True, else False
 ### Menu()
 Class Menu is witten to represent the Menu object. This function has the static method that is responsible for navigating the menu and getting user's commands
 ```python
@@ -54,17 +54,17 @@ There a number of commands available for user to enter:
 Those commands are realised in CommandOption class
 ### CommandOption()
 Class CommandOption is witten to represent the CommandOption object and has a number of static methods
-- ```get_note_id(notebook)```
-- ```get_memo(new=False)```
-- ```get_tags(new=False)```
-- ```get_search_phrase()```
-- ```show_search_results(matches)```
-- ```change_memo(notebook)```
-- ```modify_tags(notebook)```
-- ```new_note(notebook)```
-- ```search(notebook)```
+- ```get_note_id(notebook)``` which is responsible for getting note id
+- ```get_memo(new=False)``` which is responsible for getting simple or new memo
+- ```get_tags(new=False)``` which is responsible for getting simple or new tags
+- ```get_search_phrase()``` which is responsible for getting phrase to search 
+- ```show_search_results(matches)``` which is responsible for showing search results
+- ```change_memo(notebook)``` which is responsible for changing memo
+- ```modify_tags(notebook)``` which is responsible for modifying tags
+- ```new_note(notebook)``` which is responsible for creating new notes
+- ```search(notebook)``` which is responsible for searching in ```notebook```
 And one dynamic method
-- ```__str__(self)```
+- ```__str__(self)``` which represents the CommandOption class in the string
 
 
 
