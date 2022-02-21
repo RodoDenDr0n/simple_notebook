@@ -63,6 +63,7 @@ Class CommandOption is witten to represent the CommandOption object and has a nu
 - ```modify_tags(notebook)``` which is responsible for modifying tags
 - ```new_note(notebook)``` which is responsible for creating new notes
 - ```search(notebook)``` which is responsible for searching in ```notebook```
+
 And one dynamic method
 - ```__str__(self)``` which represents the CommandOption class in the string
 
